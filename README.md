@@ -1,5 +1,5 @@
 # Multiple-Regression---BHBA-NEFA
-## First Multiple Regression - BHBA
+#### First Multiple Regression - BHBA
      Generalized linear mixed model fit by maximum likelihood (Laplace Approximation) ['glmerMod']
      Family: binomial  ( logit )
      Formula: BS.BHBA.1.2 ~ MS.DIM + CE.Fat.Level + MS.Lactose + MS.Acetone.Log + MS.Urea + MS.pH + Cow.Breed + CE.Lame +                    BS.NEFA.0.7 + FPR.1.4 + (1 | CowID) Data: sub5_ncf_BHB
