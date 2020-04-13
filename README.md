@@ -202,5 +202,3 @@
      MS.Acetone.Log 1.4795185 0.90416028  2.4831767
      CE.Fat.Level   3.1647980 1.04739544  2.1979837
      MS.Oleic       0.1801901 1.96843685  6.0445656
-
-<img src = http://127.0.0.1:35012/chunk_output/F87A76CF3927A1AE/A32BDABD/ci9lyvte1b37j/000004.png>
