@@ -2,6 +2,8 @@
 
 ## BHBA Multiple Regression
 
+#### Below is our first model of multiple regression with all significant predictors associated with BHBA. After running this first model, we used backward step elimination, eliminating the least significant predictor and re-running the model. 
+
 #### BHBA Multiple Regression - First Model
      Generalized linear mixed model fit by maximum likelihood (Laplace Approximation) ['glmerMod']
      Family: binomial  ( logit )
