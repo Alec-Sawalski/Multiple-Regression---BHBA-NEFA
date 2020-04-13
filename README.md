@@ -70,7 +70,9 @@
      (Intercept)    1.554846e+01 6.289893e-05 6.431509e-03
      MS.Acetone.Log 1.894910e+01 6.394550e+00 4.633322e+01
      Cow.Breed02    6.054013e-04 2.177258e+00 1.928642e+02
-     
+ 
+<img src https://user-images.githubusercontent.com/61294969/79125835-6ef56900-7d64-11ea-8772-8b28c2535158.png>
+
 ## NEFA Multiple Regression
 
 #### NEFA Multiple Regression - First Model
