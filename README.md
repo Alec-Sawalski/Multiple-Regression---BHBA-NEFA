@@ -165,33 +165,35 @@
 #### NEFA Multiple Regression - Final Model with Fatty Acid
      Generalized linear mixed model fit by maximum likelihood (Laplace Approximation) ['glmerMod']
      Family: binomial  ( logit )
-     Formula: BS.NEFA.0.7 ~ CE.Fat.Level + MS.Oleic + (1 | CowID:Farm.No)
+     Formula: BS.NEFA.0.7 ~ MS.Acetone.Log + CE.Fat.Level + MS.Oleic + (1 |CowID:Farm.No)
      Data: sub4nc_FA
 
       AIC      BIC   logLik deviance df.resid 
-     380.7    396.9   -186.4    372.7      412 
+     370.8    390.5   -180.4    360.8      380 
 
      Scaled residuals: 
        Min      1Q  Median      3Q     Max 
-     -3.1546 -0.3525 -0.2184  0.2270  2.6637 
+     -3.2997 -0.4031 -0.2443  0.3630  2.5982 
 
      Random effects:
      Groups        Name        Variance Std.Dev.
-     CowID:Farm.No (Intercept) 2.01     1.418   
-     Number of obs: 416, groups:  CowID:Farm.No, 258
+     CowID:Farm.No (Intercept) 1.635    1.279   
+     Number of obs: 385, groups:  CowID:Farm.No, 236
 
      Fixed effects:
-             Estimate Std. Error z value Pr(>|z|)    
-     (Intercept)   -1.8371     0.3374  -5.445 5.18e-08 ***
-     CE.Fat.Level   0.4136     0.1870   2.212    0.027 *  
-     MS.Oleic       1.4932     0.2650   5.635 1.75e-08 ***
+               Estimate Std. Error z value Pr(>|z|)    
+     (Intercept)     -1.7137     0.3056  -5.608 2.04e-08 ***
+     MS.Acetone.Log   0.3827     0.2509   1.525   0.1272    
+     CE.Fat.Level     0.3917     0.1822   2.149   0.0316 *  
+     MS.Oleic         1.1521     0.2719   4.237 2.26e-05 ***
      ---
      Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
 ## NEFA Odds Ratio's, Confidence Intervals, and Effect Plots
-                       OR      2.5 %     97.5 %     
-     (Intercept)  1.5122676 0.05850544  0.2715485
-     CE.Fat.Level 4.4512724 1.06472866  2.2943550
-     MS.Oleic     0.1592734 2.86633221  9.0312020
+                         OR      2.5 %     97.5 %
+     (Intercept)    1.4661651 0.07943635  0.2954894
+     MS.Acetone.Log 1.4795185 0.90416028  2.4831767
+     CE.Fat.Level   3.1647980 1.04739544  2.1979837
+     MS.Oleic       0.1801901 1.96843685  6.0445656
 
 
