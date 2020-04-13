@@ -66,6 +66,8 @@
      ---
      Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
+#### After the addition of Fatty Acids, we found that no Fatty Acids were significant predictors. Therefore, our final model was determined without the addition of Fatty Acids. 
+
 ## BHBA Odds Ratio's, Confidence Intervals, and Effect Plots
 
                          OR        2.5 %       97.5 %
