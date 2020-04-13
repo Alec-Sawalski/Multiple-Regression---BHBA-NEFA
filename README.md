@@ -77,6 +77,8 @@
 
 ## NEFA Multiple Regression
 
+#### Below is our first model of multiple regression with all significant predictors associated with NEFA. After running this first model, we used backward step elimination, eliminating the least significant predictor and re-running the model. 
+
 #### NEFA Multiple Regression - First Model
      Generalized linear mixed model fit by maximum likelihood (Laplace Approximation) ['glmerMod']
      Family: binomial  ( logit )
@@ -142,6 +144,8 @@
      Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
 ## NEFA Multiple Regression - Addition of Fatty Acid
+
+#### After finding a final model without the addition of fatty acids with NEFA, we added in individual fatty acids to the model and included the fatty acid that produced the best fit, which was Oleic acid. After the addition of Oleic acid, we once again did backward step elimination.
 
 #### NEFA Multiple Regression - First Model with Fatty Acid
      Generalized linear mixed model fit by maximum likelihood (Laplace Approximation) ['glmerMod']
