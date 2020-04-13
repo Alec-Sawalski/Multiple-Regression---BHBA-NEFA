@@ -66,6 +66,11 @@
 
 ## BHBA Odds Ratio's, Confidence Intervals, and Effect Plots
 
+                         OR        2.5 %       97.5 %
+     (Intercept)    1.554846e+01 6.289893e-05 6.431509e-03
+     MS.Acetone.Log 1.894910e+01 6.394550e+00 4.633322e+01
+     Cow.Breed02    6.054013e-04 2.177258e+00 1.928642e+02
+     
 ## NEFA Multiple Regression
 
 #### NEFA Multiple Regression - First Model
